@@ -3,6 +3,7 @@ from tkinter import Label
 import time
 import sys
 
+# Create UI
 master = Tk()
 master.title("DigitalClock")
 
