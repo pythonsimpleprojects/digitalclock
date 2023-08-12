@@ -9,7 +9,7 @@ master.title("DigitalClock")
 
 # Define function to get time in correct format and refresh clocks every 200ms
 def get_time():
-    timeVar = time.strftime("%I:%M:%S")
+    timeVar = time.strftime("%H:%M:%S")
     clock.config(text=timeVar)
     clock.after(200,get_time)
 
